@@ -35,4 +35,4 @@ build/
 .DS_Store
 
 ### JAR file ###
-.jar
+*.jar
