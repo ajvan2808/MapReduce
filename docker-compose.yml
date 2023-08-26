@@ -29,4 +29,4 @@ services:
     stdin_open: true
     volumes:
       # before `:` is your path, after is docker dir path
-      - ./:/data   # map local file path to target docker, so it can access ours
+      - ./:/root   # map local file path to target docker, so it can access ours
