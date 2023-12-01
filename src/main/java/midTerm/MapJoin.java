@@ -22,7 +22,7 @@ public class MapJoin {
         protected Map<String, String> userMap = new HashMap<>();
 
         public void setUp(Context context) throws IOException, InterruptedException {
-            try (Scanner buffReader = new Scanner(new FileReader("cust.txt"))) {
+            try (Scanner buffReader = new Scanner(new FileReader("cust"))) {
                 String line;
                 while (buffReader.hasNextLine()) {
                     line = buffReader.nextLine();
